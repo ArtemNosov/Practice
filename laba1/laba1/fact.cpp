@@ -13,9 +13,9 @@ int fact(int N){
 int main() {
 	setlocale(LC_ALL, "rus");
 	int N;
-	cout << "Введите число для вычисления факториала:";
+	cout << "Введите любое число для вычисления факториала:";
 	cin >> N;
-	cout << "Факториал для числа" << N << "=" << fact(N) << endl;
+	cout << "Факториал для числа" << N << "равен:"<< endl << fact(N) << endl;
 	return 0;
 
 }
